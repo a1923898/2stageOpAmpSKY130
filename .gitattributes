@@ -1,0 +1,7 @@
+*.sch text
+*.sym text
+*.mag text
+*.spice text
+*.csv text
+*.txt text
+*.svg text

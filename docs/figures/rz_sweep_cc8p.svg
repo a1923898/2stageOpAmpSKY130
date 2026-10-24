@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 510" width="940" height="510">
+<rect width="940" height="510" fill="white"/>
+<text x="470" y="34" font-family="Arial" font-size="20" font-weight="bold" fill="#172d43" text-anchor="middle">Rz sweep at Cc = 8 pF</text>
+<line x1="102" y1="428" x2="905" y2="428" stroke="#e2e7ed"/><text x="88" y="433" font-family="Arial" font-size="13" fill="#53616e" text-anchor="end">60</text>
+<line x1="102" y1="355.2" x2="905" y2="355.2" stroke="#e2e7ed"/><text x="88" y="360.2" font-family="Arial" font-size="13" fill="#53616e" text-anchor="end">62</text>
+<line x1="102" y1="282.4" x2="905" y2="282.4" stroke="#e2e7ed"/><text x="88" y="287.4" font-family="Arial" font-size="13" fill="#53616e" text-anchor="end">64</text>
+<line x1="102" y1="209.6" x2="905" y2="209.6" stroke="#e2e7ed"/><text x="88" y="214.6" font-family="Arial" font-size="13" fill="#53616e" text-anchor="end">66</text>
+<line x1="102" y1="136.8" x2="905" y2="136.8" stroke="#e2e7ed"/><text x="88" y="141.8" font-family="Arial" font-size="13" fill="#53616e" text-anchor="end">68</text>
+<line x1="102" y1="64" x2="905" y2="64" stroke="#e2e7ed"/><text x="88" y="69" font-family="Arial" font-size="13" fill="#53616e" text-anchor="end">70</text>
+<line x1="102" y1="64" x2="102" y2="428" stroke="#e2e7ed"/><text x="102" y="452" font-family="Arial" font-size="13" fill="#53616e" text-anchor="middle">60k</text>
+<line x1="369.66666666666663" y1="64" x2="369.66666666666663" y2="428" stroke="#e2e7ed"/><text x="369.66666666666663" y="452" font-family="Arial" font-size="13" fill="#53616e" text-anchor="middle">70k</text>
+<line x1="637.3333333333333" y1="64" x2="637.3333333333333" y2="428" stroke="#e2e7ed"/><text x="637.3333333333333" y="452" font-family="Arial" font-size="13" fill="#53616e" text-anchor="middle">80k</text>
+<line x1="905" y1="64" x2="905" y2="428" stroke="#e2e7ed"/><text x="905" y="452" font-family="Arial" font-size="13" fill="#53616e" text-anchor="middle">90k</text>
+<path d="M102,64V428H905" fill="none" stroke="#34495d" stroke-width="1.5"/>
+<polyline fill="none" stroke="#235e92" stroke-width="2.6" stroke-linejoin="round" points="102.00,277.21 235.83,197.73 369.67,147.41 503.50,123.09 637.33,120.79 771.17,136.43 905.00,166.29"/>
+<circle cx="102" cy="277.2130000000001" r="4.3" fill="#235e92"/>
+<circle cx="235.83333333333331" cy="197.72632" r="4.3" fill="#235e92"/>
+<circle cx="369.66666666666663" cy="147.4142400000001" r="4.3" fill="#235e92"/>
+<circle cx="503.5" cy="123.09176000000014" r="4.3" fill="#235e92"/>
+<circle cx="637.3333333333333" cy="120.7912799999998" r="4.3" fill="#235e92"/>
+<circle cx="771.1666666666667" cy="136.43236000000022" r="4.3" fill="#235e92"/>
+<circle cx="905" cy="166.28764000000018" r="4.3" fill="#235e92"/>
+<text x="503.5" y="492" font-family="Arial" font-size="15" fill="#172d43" text-anchor="middle">Nulling resistance (kOhm)</text>
+<text x="27" y="246" font-family="Arial" font-size="15" fill="#172d43" text-anchor="middle" transform="rotate(-90 27 246)">Phase margin (degrees)</text></svg>

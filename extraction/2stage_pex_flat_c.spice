@@ -1,0 +1,58 @@
+* NGSPICE file created from 2stage_pex_flat.ext - technology: sky130A
+
+.subckt x2stage_pex_flat Iref VDD VSS Vout Vin+ Vin-
+X0 a_1564_9494# Vout sky130_fd_pr__cap_mim_m3_1 l=26.32 w=30
+X1 a_n750_n237# Vin- a_98_166# VSS sky130_fd_pr__nfet_01v8 ad=8.7 pd=60.58 as=8.7 ps=60.58 w=30 l=2
+X2 VDD a_98_166# a_98_166# VDD sky130_fd_pr__pfet_01v8 ad=26.1 pd=180.58 as=26.1 ps=180.58 w=90 l=2
+X3 Vout Iref VSS VSS sky130_fd_pr__nfet_01v8 ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=0.5
+X4 a_1564_9494# a_1242_166# VSS sky130_fd_pr__res_xhigh_po_0p35 l=14.69
+X5 a_1564_9494# Vout sky130_fd_pr__cap_mim_m3_1 l=26.32 w=30
+X6 a_1564_9494# Vout sky130_fd_pr__cap_mim_m3_1 l=26.32 w=30
+X7 a_1564_9494# Vout sky130_fd_pr__cap_mim_m3_1 l=26.32 w=30
+X8 Iref Iref VSS VSS sky130_fd_pr__nfet_01v8 ad=4.35 pd=30.58 as=4.35 ps=30.58 w=15 l=0.5
+X9 a_n750_n237# Iref VSS VSS sky130_fd_pr__nfet_01v8 ad=4.35 pd=30.58 as=4.35 ps=30.58 w=15 l=0.5
+X10 a_1242_166# Vin+ a_n750_n237# VSS sky130_fd_pr__nfet_01v8 ad=8.7 pd=60.58 as=8.7 ps=60.58 w=30 l=2
+X11 VDD a_1242_166# Vout VDD sky130_fd_pr__pfet_01v8 ad=13.05 pd=90.58 as=13.05 ps=90.58 w=45 l=2
+X12 a_1564_9494# Vout sky130_fd_pr__cap_mim_m3_1 l=26.32 w=30
+X13 a_1242_166# a_98_166# VDD VDD sky130_fd_pr__pfet_01v8 ad=26.1 pd=180.58 as=26.1 ps=180.58 w=90 l=2
+C0 Vout a_1564_9494# 0.353643p
+C1 a_98_166# Vout 1.811f
+C2 a_98_166# a_1564_9494# 1.02853f
+C3 Vout a_1242_166# 2.93441f
+C4 Vin- a_n750_n237# 1.10717f
+C5 a_1242_166# a_1564_9494# 0.871057f
+C6 a_98_166# a_1242_166# 2.89389f
+C7 Vin- VDD 0.037548f
+C8 a_n750_n237# VDD 0.002654f
+C9 Vin- Vin+ 0.015802f
+C10 Vout Iref 0.225041f
+C11 Iref a_1564_9494# 0.025539f
+C12 Vin+ a_n750_n237# 1.10748f
+C13 Vin+ VDD 0.037548f
+C14 Vout Vin- 0.172782f
+C15 Vin- a_1564_9494# 0.107952f
+C16 Vout a_n750_n237# 0.067358f
+C17 a_n750_n237# a_1564_9494# 0.049273f
+C18 a_98_166# Vin- 1.07536f
+C19 Vin- a_1242_166# 6.05e-19
+C20 a_98_166# a_n750_n237# 0.934117f
+C21 a_1242_166# a_n750_n237# 0.921979f
+C22 Vout VDD 5.07128f
+C23 a_1564_9494# VDD 1.0085f
+C24 a_98_166# VDD 16.1324f
+C25 a_1242_166# VDD 11.906799f
+C26 Vout Vin+ 0.463394f
+C27 Vin+ a_1564_9494# 0.218208f
+C28 a_98_166# Vin+ 0.084662f
+C29 a_1242_166# Vin+ 0.992654f
+C30 Iref a_n750_n237# 0.205763f
+C31 Iref VSS 5.2105f
+C32 Vin+ VSS 1.47216f
+C33 Vin- VSS 1.4717f
+C34 Vout VSS 80.65f
+C35 VDD VSS 0.164395p
+C36 a_n750_n237# VSS 8.35633f
+C37 a_1564_9494# VSS 8.37385f
+C38 a_98_166# VSS 9.917231f
+C39 a_1242_166# VSS 11.1051f
+.ends

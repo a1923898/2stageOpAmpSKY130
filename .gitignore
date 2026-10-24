@@ -1,0 +1,15 @@
+# Generated outputs
+*.raw
+sim-output/
+# Magic intermediate extraction
+*.ext
+*.nodes
+*.sim
+# Editor / OS
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc

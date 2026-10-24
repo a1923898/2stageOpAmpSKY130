@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 510" width="940" height="510">
+<rect width="940" height="510" fill="white"/>
+<text x="470" y="34" font-family="Arial" font-size="20" font-weight="bold" fill="#172d43" text-anchor="middle">Compensation capacitor sweep</text>
+<line x1="102" y1="428" x2="905" y2="428" stroke="#e2e7ed"/><text x="88" y="433" font-family="Arial" font-size="13" fill="#53616e" text-anchor="end">55</text>
+<line x1="102" y1="306.66666666666663" x2="905" y2="306.66666666666663" stroke="#e2e7ed"/><text x="88" y="311.66666666666663" font-family="Arial" font-size="13" fill="#53616e" text-anchor="end">60</text>
+<line x1="102" y1="185.33333333333331" x2="905" y2="185.33333333333331" stroke="#e2e7ed"/><text x="88" y="190.33333333333331" font-family="Arial" font-size="13" fill="#53616e" text-anchor="end">65</text>
+<line x1="102" y1="64" x2="905" y2="64" stroke="#e2e7ed"/><text x="88" y="69" font-family="Arial" font-size="13" fill="#53616e" text-anchor="end">70</text>
+<line x1="102" y1="64" x2="102" y2="428" stroke="#e2e7ed"/><text x="102" y="452" font-family="Arial" font-size="13" fill="#53616e" text-anchor="middle">5 pF</text>
+<line x1="369.66666666666663" y1="64" x2="369.66666666666663" y2="428" stroke="#e2e7ed"/><text x="369.66666666666663" y="452" font-family="Arial" font-size="13" fill="#53616e" text-anchor="middle">6 pF</text>
+<line x1="637.3333333333333" y1="64" x2="637.3333333333333" y2="428" stroke="#e2e7ed"/><text x="637.3333333333333" y="452" font-family="Arial" font-size="13" fill="#53616e" text-anchor="middle">7 pF</text>
+<line x1="905" y1="64" x2="905" y2="428" stroke="#e2e7ed"/><text x="905" y="452" font-family="Arial" font-size="13" fill="#53616e" text-anchor="middle">8 pF</text>
+<path d="M102,64V428H905" fill="none" stroke="#34495d" stroke-width="1.5"/>
+<polyline fill="none" stroke="#235e92" stroke-width="2.6" stroke-linejoin="round" points="102.00,325.89 369.67,241.97 637.33,179.77 905.00,132.19"/>
+<circle cx="102" cy="325.8882933333333" r="4.3" fill="#235e92"/>
+<circle cx="369.66666666666663" cy="241.96687999999992" r="4.3" fill="#235e92"/>
+<circle cx="637.3333333333333" cy="179.77383999999995" r="4.3" fill="#235e92"/>
+<circle cx="905" cy="132.19176000000013" r="4.3" fill="#235e92"/>
+<text x="503.5" y="492" font-family="Arial" font-size="15" fill="#172d43" text-anchor="middle">Compensation capacitance (pF)</text>
+<text x="27" y="246" font-family="Arial" font-size="15" fill="#172d43" text-anchor="middle" transform="rotate(-90 27 246)">Phase margin (degrees)</text></svg>

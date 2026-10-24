@@ -7,6 +7,12 @@ Transistor-level design, physical layout, and parasitic-aware simulation of a **
 
 > **Project status:** Schematic and hierarchical Magic layout sources are included, together with an LVS comparison and capacitance-only / RC extraction outputs. The quantified AC result below is from **capacitance-only post-layout extraction**, not a validated full-RC simulation or a fabricated IC. The repository still requires path configuration and fresh end-to-end verification on another machine.
 
+## Circuit schematic
+
+![Transistor-level Xschem schematic of the two-stage CMOS operational amplifier](docs/figures/xschem_schematic.png)
+
+*Transistor-level schematic of the two-stage amplifier in Xschem.* The NMOS differential input pair (M4–M5) uses a PMOS current-mirror active load (M1–M2), followed by a second gain stage with M3 and M8. M6–M7 establish the NMOS bias current, while R1 and C2 provide series Miller compensation. The editable source is available in [`schematic/diffpair.sch`](schematic/diffpair.sch).
+
 ## AC performance
 
 | Parameter | Reported value | Provenance |
